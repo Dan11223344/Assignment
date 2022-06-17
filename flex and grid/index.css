@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    height: 60%;
+    border-radius: 30%;
+    display: flex;
+    background-color: black;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    transform:translate(-50px,-50px);
+   
+
+
+}
+.box1{
+      
+    background-color: hsl(31, 77%, 52%);
+    width: 33%;
+    height: 60vh;
+    padding: 35px;
+    border-radius: 5px;
+    z-index: -5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}
+.box1 h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 45px;
+    margin: 10px 0;
+    color: white;
+
+}
+.box1 p{
+    padding: 5px;
+    margin: 25px 0;
+    font-size: 15px ;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    line-height: 25px;
+    word-spacing: 2px;
+
+}
+.box1 button{
+    background-color: white;
+    margin-top: 50px;
+    width: 150px;
+    height: 65px;
+    font-size: 15px;
+    color: hsl(31, 77%, 52%);
+    border:none;
+    border-radius:30px ;
+    font-family: 'Lexend Deca', sans-serif;
+    overflow: hidden;
+}
+
+/* styling for the second div */
+
+.box2{
+    background-color:hsl(184, 100%, 22%)
+    ;
+    width: 33%;
+    height: 60vh;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.box2 h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 45px;
+    margin: 10px 0;
+    color: white;
+
+}
+.box2 p{
+    padding: 5px;
+    margin: 25px 0;
+    font-size: 15px ;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    line-height: 25px;
+    word-spacing: 2px;
+
+}
+.box2 button{
+    background-color: white;
+    margin-top: 50px;
+    width: 150px;
+    height: 65px;
+    font-size: 15px;
+    color: hsl(31, 77%, 52%);
+    border:none;
+    border-radius:30px ;
+    font-family: 'Lexend Deca', sans-serif;
+    overflow: hidden;
+}
+
+
+
+.box3{
+
+    background-color:hsl(179, 100%, 13%);
+    width: 34%;
+    height: 60vh;
+    border-radius: 10px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}
+.box3 h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 45px;
+    margin: 10px 0;
+    color: white;
+
+}
+.box3 p{
+    padding: 5px;
+    margin: 25px 0;
+    font-size: 15px ;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    line-height: 25px;
+    word-spacing: 2px;
+
+}
+.box3 button{
+    background-color: white;
+    margin-top: 50px;
+    width: 150px;
+    height: 65px;
+    font-size: 15px;
+    color: hsl(31, 77%, 52%);
+    border:none;
+    border-radius:30px ;
+    font-family: 'Lexend Deca', sans-serif;
+    overflow: hidden;
+}
